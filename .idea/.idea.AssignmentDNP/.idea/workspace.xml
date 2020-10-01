@@ -23,6 +23,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AssignmentDNP/World.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1iAwiuMJetZ2KZdYgEybjkZrrep" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -167,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601363835565</updated>
       <workItem from="1601363841308" duration="1718000" />
-      <workItem from="1601544118382" duration="3572000" />
+      <workItem from="1601544118382" duration="3923000" />
     </task>
     <task id="LOCAL-00001" summary="new stuff">
       <created>1601544187386</created>
@@ -190,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601548007946</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new stuff">
+      <created>1601548069876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601548069876</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new stuff">
+      <created>1601548081592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601548081592</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +245,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="431" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601363859936" />
+    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1601548039124">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1601548039124" />
     <state x="466" y="72" key="Rider.ProjectTemplateDialog.Size" timestamp="1601547830511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -232,10 +257,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601546576761" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601544191381">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601548085280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601544191381" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601548085280" />
     <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601548028925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -6,6 +6,7 @@
     <e p="C:\Users\HUAWEI\DNPexercises\AssignmentDNP" t="IncludeFlat">
       <e p="AssignmentDNP" t="IncludeRecursive">
         <e p="_Imports.razor" t="Include" />
+        <e p="adults.json" t="Include" />
         <e p="App.razor" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -15,7 +16,17 @@
           <e p="WeatherForecast.cs" t="Include" />
           <e p="WeatherForecastService.cs" t="Include" />
         </e>
+        <e p="families.json" t="Include" />
         <e p="Hellloo.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Adult.cs" t="Include" />
+          <e p="Child.cs" t="Include" />
+          <e p="ChildInterest.cs" t="Include" />
+          <e p="Family.cs" t="Include" />
+          <e p="Interest.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="Pet.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -30,6 +41,9 @@
           <e p="Error.cshtml" t="Include" />
           <e p="FetchData.razor" t="Include" />
           <e p="Index.razor" t="Include" />
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="FileContext.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -72,7 +86,6 @@
       </e>
       <e p="AssignmentDNP.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="SolutionFolder1" t="Include" />
     </e>
   </component>
 </project>
