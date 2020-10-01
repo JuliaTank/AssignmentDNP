@@ -4,6 +4,7 @@
     <projectFile>AssignmentDNP/AssignmentDNP.csproj</projectFile>
     <projectFile>Assignment/Assignment.csproj</projectFile>
     <projectFile>Assignment/Assignment1/Assignment1.csproj</projectFile>
+    <projectFile>WebApplication/WebApplication.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand />
@@ -18,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1iAwiuMJetZ2KZdYgEybjkZrrep" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -163,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601363835565</updated>
       <workItem from="1601363841308" duration="1718000" />
-      <workItem from="1601544118382" duration="3256000" />
+      <workItem from="1601544118382" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="new stuff">
       <created>1601544187386</created>
@@ -172,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601544187386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new stuff">
+      <created>1601547886057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601547886065</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new stuff">
+      <created>1601548007946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601548007946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,10 +224,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="431" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601363859936" />
-    <state x="466" y="72" key="Rider.ProjectTemplateDialog.Size" timestamp="1601546074195">
+    <state x="466" y="72" key="Rider.ProjectTemplateDialog.Size" timestamp="1601547830511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="466" y="72" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1601546074195" />
+    <state x="466" y="72" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1601547830511" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1601546576761">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -218,9 +236,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601544191381" />
-    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601544622716">
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601548028925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1601544622716" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1601548028925" />
   </component>
 </project>
