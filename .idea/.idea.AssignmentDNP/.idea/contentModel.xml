@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\HUAWEI\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\HUAWEI\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AssignmentDNP.-792392539.00" t="ExcludeRecursive" />
-    <e p="C:\Users\HUAWEI\DNPexercises\AssignmentDNP" t="IncludeFlat">
+    <e p="C:\Users\tanki\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tanki\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AssignmentDNP.-2106350375.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tanki\DNPexercises\AssignmentDNP" t="IncludeFlat">
       <e p="AssignmentDNP" t="IncludeRecursive">
         <e p="_Imports.razor" t="Include" />
         <e p="App.razor" t="Include" />
@@ -15,6 +15,7 @@
           <e p="WeatherForecast.cs" t="Include" />
           <e p="WeatherForecastService.cs" t="Include" />
         </e>
+        <e p="Hellloo.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -70,7 +71,6 @@
       </e>
       <e p="AssignmentDNP.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="SolutionFolder1" t="Include" />
     </e>
   </component>
 </project>
