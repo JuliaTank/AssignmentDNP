@@ -1,5 +1,6 @@
 ﻿@page "/"
 @namespace AssignmentDNP.Pages
+
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = null;
@@ -14,10 +15,13 @@
     <base href="~/"/>
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
     <link href="css/site.css" rel="stylesheet"/>
+  
 </head>
-<body>
-<app>
-    <component type="typeof(App)" render-mode="ServerPrerendered"/>
+
+<body >
+
+<app >
+    <component type="typeof(App)" render-mode="Server"/>
 </app>
 
 <div id="blazor-error-ui">
@@ -34,3 +38,4 @@
 <script src="_framework/blazor.server.js"></script>
 </body>
 </html>
+
