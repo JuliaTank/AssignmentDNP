@@ -12,9 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96daca44-ac49-4d0c-ad64-db931d737f1d" name="Default Changelist" comment="new stuff">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +58,8 @@
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/AddPerson.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" />
       </list>
     </option>
   </component>
@@ -217,7 +214,7 @@
       <workItem from="1601544118382" duration="5418000" />
       <workItem from="1601662207971" duration="31970000" />
       <workItem from="1601814255987" duration="19361000" />
-      <workItem from="1601888855442" duration="1558000" />
+      <workItem from="1601888855442" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="new stuff">
       <created>1601544187386</created>
@@ -261,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601548616800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new stuff">
+      <created>1601890820205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890820205</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,10 +399,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1601830241911" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601548620909">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601890822693">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601548620909" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601890822693" />
     <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601548028925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
