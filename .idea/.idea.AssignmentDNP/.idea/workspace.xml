@@ -12,44 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96daca44-ac49-4d0c-ad64-db931d737f1d" name="Default Changelist" comment="new stuff">
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Data/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/AddPerson.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/Shared/LoginLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentDNP/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Data/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Data/WeatherForecastService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Hellloo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Models/Child.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Models/ChildInterest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Models/Family.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Models/Interest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Models/Pet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/FetchData.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/_Host.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Persistence/FileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Persistence/FileContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/World.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/adults.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/families.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.RazorComponent.input.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" afterDir="false" />
     </list>
@@ -93,12 +57,12 @@
         <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/AddPerson.razor" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" />
       </list>
     </option>
   </component>
@@ -253,6 +217,7 @@
       <workItem from="1601544118382" duration="5418000" />
       <workItem from="1601662207971" duration="31970000" />
       <workItem from="1601814255987" duration="19361000" />
+      <workItem from="1601888855442" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="new stuff">
       <created>1601544187386</created>
@@ -330,22 +295,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="431" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601363859936" />
-    <state width="1237" height="153" key="GridCell.Tab.0.bottom" timestamp="1601846350875">
+    <state width="1237" height="153" key="GridCell.Tab.0.bottom" timestamp="1601889832767">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601846350875" />
-    <state width="1237" height="153" key="GridCell.Tab.0.center" timestamp="1601846350875">
+    <state width="1237" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601889832767" />
+    <state width="1237" height="153" key="GridCell.Tab.0.center" timestamp="1601889832766">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601846350875" />
-    <state width="1237" height="153" key="GridCell.Tab.0.left" timestamp="1601846350875">
+    <state width="1237" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601889832766" />
+    <state width="1237" height="153" key="GridCell.Tab.0.left" timestamp="1601889832766">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601846350875" />
-    <state width="1237" height="153" key="GridCell.Tab.0.right" timestamp="1601846350875">
+    <state width="1237" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601889832766" />
+    <state width="1237" height="153" key="GridCell.Tab.0.right" timestamp="1601889832766">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601846350875" />
+    <state width="1237" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601889832766" />
     <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1601800526098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
