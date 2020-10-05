@@ -1,6 +1,122 @@
 ﻿@page "/PeopleList"
-<h3>People List</h3>
+@using Models
+@using Persistence
+@inject FileContext FileContext
+<h3 id="ListPerson">People List</h3>
 
+<div id = "form-group">
+
+<label>Filter by Id:</label> 
+<input class="form-control" type="number" @oninput="@((arg) => FilterByAdultId(arg))" style="width:150px"/>
+
+</div>
+<div id ="form-group">
+    <label>Filter by last name: </label> 
+    <input class="form-control" type="string"  @oninput="@((arg) => FilterByLastName(arg))" style="width:150px"/>
+</div>
+@if (allAdults == null)
+{
+    <p>
+    <em> Loading.. </em>
+    </p>
+}
+else if (!allAdults.Any())
+{
+    <p>
+        <em>No adults exist, Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        
+            <tr>
+                <th>Job Title</th>
+                <th>Id</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Hair color</th>
+                <th>Eye color</th>
+                <th>Age</th>
+                <th>Weight</th>
+                <th>Height</th>
+                <th>Sex</th>
+            </tr>
+        
+        <tbody>
+        @foreach (var adult in adultsToShow)
+        {
+            <tr>
+                <td>@adult.JobTitle</td>
+                <td>@adult.Id</td>
+                <td>@adult.FirstName</td>
+                <td>@adult.LastName</td>
+                <td>@adult.HairColor</td>
+                <td>@adult.EyeColor</td>
+                <td>@adult.Age</td>
+                <td>@adult.Weight</td>
+                <td>@adult.Height</td>
+                <td>@adult.Sex</td>
+               
+                <td>
+                    <button @onclick="@(() => RemoveTodo(adult.Id))">
+                        <i class="oi oi-trash" style=" color:red"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
 @code {
+    private IList<Adult> adultsToShow;
+    private IList<Adult> allAdults;
+    private int? filterById;
+    private string? filterByLastName;
+
+    private void FilterByAdultId(ChangeEventArgs args)
+    {
+        filterById = null;
+        try
+        {
+            filterById = int.Parse(args.Value.ToString());
+        }
+        catch (Exception e)
+        {
+        }
+        ExecuteFilter();
+    }
+
+    private void FilterByLastName(ChangeEventArgs args)
+    {
+        filterByLastName = null;
+        try
+        {
+            filterByLastName = args.Value.ToString();
+        }
+        catch (Exception e)
+        {
+        }
+        ExecuteFilter();
+    }
+
+    private void ExecuteFilter()
+    {
+        adultsToShow = allAdults.Where(t =>
+            (filterById != null && t.Id == filterById || filterById == null) &&
+            (filterByLastName != null && t.LastName == filterByLastName || filterByLastName == null)).ToList();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        allAdults = FileContext.GetAdults();
+        adultsToShow = allAdults;
+    }
     
+    private void RemoveTodo(int adultId)
+    {
+        Adult adultToRemove = allAdults.First(t => t.Id == adultId);
+        FileContext.RemoveAdult(adultId);
+        allAdults.Remove(adultToRemove);
+    }
 }
