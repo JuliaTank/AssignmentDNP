@@ -52,7 +52,7 @@ a, .btn-link {
 .button {
     
     border-radius: 4px;
-    background-color: #821ef4;
+    background-color: #ae89f4;
     border: none;
     color: whitesmoke;
     text-align: center;
@@ -113,7 +113,7 @@ a, .btn-link {
 #AddPerson{
     font-family: "Apple Color Emoji";
     text-align: center;
-    color:#821ef4;
+    color: #ae89f4;
     font-size: 30px;
     
 }
