@@ -12,12 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96daca44-ac49-4d0c-ad64-db931d737f1d" name="Default Changelist" comment="new stuff">
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/PeopleList.razor.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/LoginLayout.razor.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/adults.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991708" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30016583" />
@@ -219,7 +223,7 @@
       <workItem from="1601544118382" duration="5418000" />
       <workItem from="1601662207971" duration="31970000" />
       <workItem from="1601814255987" duration="19361000" />
-      <workItem from="1601888855442" duration="5864000" />
+      <workItem from="1601888855442" duration="7023000" />
     </task>
     <task id="LOCAL-00001" summary="new stuff">
       <created>1601544187386</created>
@@ -291,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601892253936</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new stuff">
+      <created>1601896826631</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601896826631</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new stuff">
+      <created>1601896881363</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601896881363</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +330,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="new stuff" />
     <option name="LAST_COMMIT_MESSAGE" value="new stuff" />
@@ -325,22 +344,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="431" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601363859936" />
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom" timestamp="1601896275836">
+    <state width="1237" height="121" key="GridCell.Tab.0.bottom" timestamp="1601896805713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601896275836" />
-    <state width="1237" height="121" key="GridCell.Tab.0.center" timestamp="1601896275836">
+    <state width="1237" height="121" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601896805713" />
+    <state width="1237" height="121" key="GridCell.Tab.0.center" timestamp="1601896805712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601896275836" />
-    <state width="1237" height="121" key="GridCell.Tab.0.left" timestamp="1601896275835">
+    <state width="1237" height="121" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601896805712" />
+    <state width="1237" height="121" key="GridCell.Tab.0.left" timestamp="1601896805712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601896275835" />
-    <state width="1237" height="121" key="GridCell.Tab.0.right" timestamp="1601896275836">
+    <state width="1237" height="121" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601896805712" />
+    <state width="1237" height="121" key="GridCell.Tab.0.right" timestamp="1601896805712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601896275836" />
+    <state width="1237" height="121" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601896805712" />
     <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1601800526098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -425,10 +444,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1601830241911" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601892255378">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601896894530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601892255378" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601896894530" />
     <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601548028925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
