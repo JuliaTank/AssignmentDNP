@@ -1,0 +1,20 @@
+﻿[
+  {
+    "UserName" : "Roksana",
+    "Password" : "piespies",
+    "ID" : 1,
+    "SecurityLevel" : 2
+},
+  {
+    "UserName" : "Julia",
+    "Password" : "kotkot",
+    "ID" : 2,
+    "SecurityLevel" : 3
+  },
+  {
+    "UserName" : "Tosia",
+    "Password" : "pudelpudel",
+    "ID" : 3,
+    "SecurityLevel" : 1
+  }
+]

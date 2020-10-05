@@ -1,4 +1,7 @@
-﻿@inherits LayoutComponentBase
+﻿@using AssignmentDNP.Authentication
+@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <div class="sidebar">
     <NavMenu/>
@@ -6,10 +9,35 @@
 
 <div class="main">
     <div class="top-row px-4">
-        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        <Login/>
+      
+        <button class="buttonMenu">
+            <a href="" @onclick="PerformLogout">
+                <span>
+                    Log out
+                </span>
+            </a>
+        </button>
     </div>
 
     <div class="content px-4">
         @Body
     </div>
 </div>
+@code{
+
+    public async Task PerformLogout()
+    {
+        try
+        {
+            ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
+            NavigationManager.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+    }
+
+
+}

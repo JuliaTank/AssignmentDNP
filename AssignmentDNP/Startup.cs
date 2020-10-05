@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using AssignmentDNP.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using AssignmentDNP.Data;
+using Microsoft.AspNetCore.Components.Authorization;
+using Persistence;
 
 namespace AssignmentDNP
 {
@@ -28,7 +32,26 @@ namespace AssignmentDNP
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
+            
+            services.AddHttpContextAccessor();
+            services.AddScoped<IUserService, FileContext>();
+            services.AddScoped<IPersonService, FileContext>();
+            services.AddSingleton<FileContext>();
+            services.AddScoped<AuthenticationStateProvider, UserCustomAuthenticationStateProvider>();
+            /*services.AddScoped<AuthenticationStateProvider, PersonCustomAuthenticationStateProvider>();*/
+
+
+            services.AddAuthorization(options =>
+                {
+                    options.AddPolicy("LoggedUser", policy =>
+                        policy.RequireAuthenticatedUser().RequireAssertion(context =>
+                        {
+                            Claim logClaim = context.User.FindFirst(claim => claim.Type.Equals("ID"));
+                            if (logClaim == null) return false;
+                            return int.Parse(logClaim.Value)>0;
+                        }));
+                }
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
