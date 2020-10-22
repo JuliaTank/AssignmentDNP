@@ -1,6 +1,7 @@
 ﻿@page "/PeopleList"
 @using Models
 @using Persistence
+@attribute [Authorize(Policy ="LoggedUser" )]
 @inject FileContext FileContext
 <h3 id="ListPerson">People List</h3>
 
@@ -12,7 +13,7 @@
 </div>
 <div id ="form-group">
     <label>Filter by last name: </label> 
-    <input class="form-control" type="string"  @oninput="@((arg) => FilterByLastName(arg))" style="width:150px"/>
+    <input class="form-control" type="text"  @oninput="@((arg) => FilterByLastName(arg))" style="width:150px"/>
 </div>
 @if (allAdults == null)
 {
@@ -46,6 +47,7 @@ else
         <tbody>
         @foreach (var adult in adultsToShow)
         {
+            
             <tr>
                 <td>@adult.JobTitle</td>
                 <td>@adult.Id</td>
@@ -59,7 +61,7 @@ else
                 <td>@adult.Sex</td>
                
                 <td>
-                    <button @onclick="@(() => RemoveTodo(adult.Id))">
+                    <button @onclick="@(() => RemoveAdult(adult.Id))">
                         <i class="oi oi-trash" style=" color:red"></i>
                     </button>
                 </td>
@@ -93,6 +95,10 @@ else
         try
         {
             filterByLastName = args.Value.ToString();
+            if (args.Value.Equals(""))
+            {
+                filterByLastName = null;
+            }
         }
         catch (Exception e)
         {
@@ -113,10 +119,11 @@ else
         adultsToShow = allAdults;
     }
     
-    private void RemoveTodo(int adultId)
+    private void RemoveAdult(int adultId)
     {
         Adult adultToRemove = allAdults.First(t => t.Id == adultId);
         FileContext.RemoveAdult(adultId);
         allAdults.Remove(adultToRemove);
+        adultsToShow.Remove(adultToRemove);
     }
 }

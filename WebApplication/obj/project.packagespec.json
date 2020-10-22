@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
+    "projectUniqueName": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
     "projectName": "WebApplication",
-    "projectPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
-    "outputPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\obj\\",
+    "projectPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
+    "outputPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
