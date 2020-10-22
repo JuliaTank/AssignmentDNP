@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using AssignmentDNP.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Models;
 
 namespace Persistence {
@@ -51,21 +52,38 @@ public class FileContext: IPersonService,IUserService {
 
 
     //@todo change query fields
-    public Adult ValidatePerson(string FirstName, string LastName, string sex, int id)
+    
+    public Adult ValidatePerson(string firstName, string lastName, string sex, int id)
     {
-        Adult first = Adults.FirstOrDefault(adult => adult.LastName.Equals(LastName));
-        if (first == null)
-        {
-            throw new Exception("Person not found");
-        }
+        //Adult first = Adults.FirstOrDefault(adult => adult.Id==id);
+        
+        /*if (first == null)
+        {*/
+            if (firstName == null || firstName.Equals(""))
+            {
+                throw new Exception("Please specify the first name");
+            }
 
-        if (!first.FirstName.Equals(FirstName) || !first.LastName.Equals(LastName) || 
-            !first.Sex.Equals(sex) || first.Id !=id)
-        {
-            throw new Exception("Incorrect data");
-        }
+            if (lastName == null || lastName.Equals(""))
+            {
+                throw new Exception("Please specify last name");
+            }
 
-        return first;
+            if (sex == null || !(sex.Equals("F") || sex.Equals("M") || sex.Equals("Other") || sex.Equals("other")))
+            {
+                throw new Exception("Sex has to be specified as: 'F', 'M' or 'Other'");
+            }
+
+            return null;
+       // }
+
+        /*
+        if (first !=null)
+        {
+            Console.WriteLine(first.FirstName);
+            throw new Exception("Person already exists,");
+        }
+        */
     }
 
     public User ValidateUser(string userName, string Password)
@@ -102,6 +120,7 @@ public class FileContext: IPersonService,IUserService {
         else
         {
             adult = null;
+            throw new Exception("User already exists");
         }
     }
 

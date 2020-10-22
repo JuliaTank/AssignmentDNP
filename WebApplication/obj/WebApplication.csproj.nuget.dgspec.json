@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj": {}
+    "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj": {
+    "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
-        "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\WebApplication\\obj\\",
+        "projectPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\WebApplication.csproj",
+        "packagesPath": "C:\\Users\\tanki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tanki\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

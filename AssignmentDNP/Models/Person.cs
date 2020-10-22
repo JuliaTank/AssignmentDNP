@@ -42,7 +42,7 @@ public class ValidHairColor : ValidationAttribute {
     protected override ValidationResult IsValid(object value, ValidationContext validationContext) {
         List<string> valid = new[] {"blond", "red", "brown", "black",
             "white", "grey", "blue", "green", "leverpostej"}.ToList();
-        if (valid == null || valid.Contains(value.ToString().ToLower())) {
+        if (value != null && valid.Contains(value.ToString().ToLower())) {
             return ValidationResult.Success;
         }
         return new ValidationResult("Valid hair colors are: Blond, Red, Brown, Black, White, Grey, Blue, Green, Leverpostej");
@@ -53,10 +53,10 @@ public class ValidEyeColor : ValidationAttribute {
     protected override ValidationResult IsValid(object value, ValidationContext validationContext) {
         List<string> valid = new[] {"brown", "grey", "green", "blue",
             "amber", "hazel"}.ToList();
-        if (valid != null && valid.Contains(value.ToString().ToLower())) {
+        if (value != null && valid.Contains(value.ToString().ToLower())) {
             return ValidationResult.Success;
         }
-        return new ValidationResult("Valid hair colors are: Brown, Grey, Green, Blue, Amber, Hazel");
+        return new ValidationResult("Valid eye colors are: Brown, Grey, Green, Blue, Amber, Hazel");
     }
 }
 

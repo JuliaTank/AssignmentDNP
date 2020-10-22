@@ -2,9 +2,12 @@
 @using Models
 @using Persistence
 @using AssignmentDNP.Authentication
+@using AssignmentDNP.Data
+@attribute [Authorize(Policy ="LoggedUser" )]
 @inject NavigationManager NavigationManager
 @inject FileContext FileContext
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@inject IPersonService PersonService;
 
         
     
@@ -20,20 +23,20 @@
                 <div class="form-group" style="font-family: -webkit-body;  color:#821ef4">
                     Job Title:<br/>
                     <InputText @bind-Value="newAdult.JobTitle"/></div></span>
-            <span class="col-6">
-                <div class="form-group " style="font-family: -webkit-body ;  color:#821ef4">
-                    Id:<br/>
-                    <InputNumber @bind-Value="newAdult.Id"/>
-                </div> </span>
-
-        </div>
-        <div class="col-12 row">
-            <span class="col-6">
+                 <span class="col-6">
                 <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
                     First name:<br/>
                     <InputText @bind-Value="newAdult.FirstName"/>
                 </div>
             </span>
+
+        </div>
+        <div class="col-12 row">
+           <span class="col-6">
+                           <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
+                               Hair color:<br/>
+                               <InputText @bind-Value="newAdult.HairColor"/>
+                           </div></span>
             <span class="col-6">
                 <div class="form-group" style="font-family: -webkit-body;  color:#821ef4">
                     Last name:<br/>
@@ -42,10 +45,10 @@
         </div>
         <div class="col-12 row">
             <span class="col-6">
-                <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
-                    Hair color:<br/>
-                    <InputText @bind-Value="newAdult.HairColor"/>
-                </div></span>
+                            <div class="form-group "style="font-family: -webkit-body;  color:#821ef4">
+                                Age:<br/>
+                                <InputNumber @bind-Value="newAdult.Age"/>
+                            </div></span>
             <span class="col-6">
                 <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
                     Eye color:<br/>
@@ -53,32 +56,36 @@
                 </div></span>
         </div>
         <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group "style="font-family: -webkit-body;  color:#821ef4">
-                    Age:<br/>
-                    <InputNumber @bind-Value="newAdult.Age"/>
-                </div></span>
+            
             <span class="col-6">
                 <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
                     Weight:<br/>
                     <InputNumber @bind-Value="newAdult.Weight"/></div></span>
+            <span class="col-6">
+                
+                <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
+                    
+                    Height:<br/>
+                    
+                    <InputNumber @bind-Value="newAdult.Height"/>
+                
+                    </div></span>
         </div>
         <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group " style="font-family: -webkit-body;  color:#821ef4">
-                    Height:<br/>
-                    <InputNumber @bind-Value="newAdult.Height"/>
-                </div></span>
+            
             <span class="col-6">
                 <div class="form-group  " style="font-family: -webkit-body;  color:#821ef4">
                     Sex:<br/>
                     <InputText @bind-Value="newAdult.Sex"/>
-                </div></span>
+                </div></span>  
+            <span class="col-6">
+                
+                <div style="color:red">@errorMessage</div>
+            
+                </span>
         </div>
         <div class="col-12 row">
-            <span class="col-6">
-                <div style="color:red">@errorMessage</div>
-            </span>
+          
             <span class="col-6">
                 <p class="actions">
                     <button class="buttonMenu" type="submit">
@@ -100,16 +107,19 @@
         errorMessage = "";
         try
         {
-            ((PersonCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateAdd
-                (newAdult.FirstName,newAdult.LastName,newAdult.Sex,newAdult.Id);
-             FileContext.AddAdult(newAdult);
+            /*((PersonCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateAdd
+                (newAdult.FirstName,newAdult.LastName,newAdult.Sex,newAdult.Id);*/
+            
+            PersonService.ValidatePerson(newAdult.FirstName, newAdult.LastName, newAdult.Sex, newAdult.Id);
+       
+            FileContext.AddAdult(newAdult);
                     NavigationManager.NavigateTo("/PeopleList");
         }
         catch (Exception e)
         {
             errorMessage = e.Message;
         }
-       
+        
     }
    
     

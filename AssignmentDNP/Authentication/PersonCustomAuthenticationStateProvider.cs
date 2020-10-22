@@ -23,7 +23,7 @@ namespace AssignmentDNP.Authentication
             this.personService = personService;
         }
         
-        public void ValidateAdd(string firstName, string lastName, string sex, int id)
+        /*public void ValidateAdd(string firstName, string lastName, string sex, int id)
         {
             Console.WriteLine("Validating adding");
             if (string.IsNullOrEmpty(firstName)) throw new Exception("Enter first name");
@@ -47,7 +47,7 @@ namespace AssignmentDNP.Authentication
 
             NotifyAuthenticationStateChanged(
                 Task.FromResult(new AuthenticationState(new ClaimsPrincipal(identity))));
-        }
+        }*/
 
         public override async Task<AuthenticationState> GetAuthenticationStateAsync()
         {

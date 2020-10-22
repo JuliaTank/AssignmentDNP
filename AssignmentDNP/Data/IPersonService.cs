@@ -4,6 +4,6 @@ namespace AssignmentDNP.Data
 {
     public interface IPersonService
     {
-        Adult ValidatePerson(string FirstName, string LastName, string sex, int id);
+        Adult ValidatePerson(string firstName, string lastName, string sex, int id);
     }
 }
