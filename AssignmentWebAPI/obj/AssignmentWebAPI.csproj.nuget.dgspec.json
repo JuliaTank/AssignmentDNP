@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj": {}
+    "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj": {
+    "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj",
-        "projectName": "AssignmentDNP",
-        "projectPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj",
+        "projectUniqueName": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
+        "projectName": "AssignmentWebAPI",
+        "projectPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
         "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\obj\\",
+        "outputPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config"
