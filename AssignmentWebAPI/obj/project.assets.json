@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\": {}
+    "C:\\Users\\tanki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
       "projectName": "AssignmentWebAPI",
-      "projectPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
-      "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\obj\\",
+      "projectPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
+      "packagesPath": "C:\\Users\\tanki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tanki\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

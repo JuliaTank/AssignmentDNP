@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using AssignmentDNP.Data;
+using AssignmentDNP.Persistence;
 using Microsoft.AspNetCore.Components.Authorization;
 using Persistence;
 
@@ -34,9 +35,9 @@ namespace AssignmentDNP
             services.AddServerSideBlazor();
             
             services.AddHttpContextAccessor();
-            services.AddScoped<IUserService, FileContext>();
-            services.AddScoped<IPersonService, FileContext>();
-            services.AddSingleton<FileContext>();
+            services.AddScoped<IUserService, UsersCloud>();
+            services.AddScoped<IPersonService, PeopleCloud>();
+            
             services.AddScoped<AuthenticationStateProvider, UserCustomAuthenticationStateProvider>();
             /*services.AddScoped<AuthenticationStateProvider, PersonCustomAuthenticationStateProvider>();*/
 

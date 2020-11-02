@@ -2,7 +2,7 @@
 @using Models
 @using Persistence
 @attribute [Authorize(Policy ="LoggedUser" )]
-@inject FileContext FileContext
+@inject PeopleCloud PeopleCloud
 <h3 id="ListPerson">People List</h3>
 
 <div id = "form-group">
@@ -113,16 +113,16 @@ else
             (filterByLastName != null && t.LastName == filterByLastName || filterByLastName == null)).ToList();
     }
 
-    protected override async Task OnInitializedAsync()
+    /*protected override async Task OnInitializedAsync()
     {
-        allAdults = FileContext.GetAdults();
+        allAdults = PeopleCloud.GetPersonAsync();
         adultsToShow = allAdults;
-    }
+    }*/
     
     private void RemoveAdult(int adultId)
     {
         Adult adultToRemove = allAdults.First(t => t.Id == adultId);
-        FileContext.RemoveAdult(adultId);
+        PeopleCloud.RemovePersonAsync(adultId);
         allAdults.Remove(adultToRemove);
         adultsToShow.Remove(adultToRemove);
     }

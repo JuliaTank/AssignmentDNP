@@ -5,7 +5,7 @@
 @using AssignmentDNP.Data
 @attribute [Authorize(Policy ="LoggedUser" )]
 @inject NavigationManager NavigationManager
-@inject FileContext FileContext
+@inject PeopleCloud PeopleCloud
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject IPersonService PersonService;
 
@@ -112,7 +112,7 @@
             
             PersonService.ValidatePerson(newAdult.FirstName, newAdult.LastName, newAdult.Sex, newAdult.Id);
        
-            FileContext.AddAdult(newAdult);
+            PeopleCloud.AddPersonAsync(newAdult);
                     NavigationManager.NavigateTo("/PeopleList");
         }
         catch (Exception e)
