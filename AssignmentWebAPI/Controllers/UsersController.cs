@@ -18,18 +18,7 @@ namespace AssignmentWebAPI.Controllers
         {
             this.userService = userService;
         }
-        
-        [HttpGet]
-        public async Task<ActionResult<IList<User>>> 
-            GetUsers([FromQuery] string username, [FromQuery] string  password, [FromQuery] int id) {
-            try {
-                IList<User> users = await userService.GetUsersAsync();
-                return Ok(users);
-            } catch (Exception e) {
-                Console.WriteLine(e);
-                return StatusCode(500, e.Message);
-            }
-        }
+ 
         
         [HttpPost]
         public async Task<ActionResult<User>> AddUser([FromBody] User user) {

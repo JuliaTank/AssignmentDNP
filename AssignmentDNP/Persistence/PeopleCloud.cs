@@ -14,7 +14,7 @@ namespace AssignmentDNP.Persistence
         HttpClient client = new HttpClient();
         public Adult ValidatePerson(string firstName, string lastName, string sex, int id)
         {
-            
+            return null; //to do
         }
 
         public async Task<IList<Adult>> GetPersonAsync()

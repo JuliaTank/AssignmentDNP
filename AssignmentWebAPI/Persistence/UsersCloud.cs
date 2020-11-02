@@ -1,28 +1,42 @@
-﻿
-
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+
 using AssignmentWebAPI.Data;
 using AssignmentWebAPI.Models;
 
 
-namespace AssignmentWebAPI.Persistence
+namespace Persistence
 {
     public class UsersCloud: IUserService
     {
+        HttpClient client = new HttpClient();
+        public IList<User> Users { get; private set; }
         public User ValidateUser(string userName, string Password)
         {
-            throw new System.NotImplementedException();
+            User first = Users.FirstOrDefault(user => user.UserName.Equals(userName));
+            if (first == null) {
+                throw new Exception("User not found");
+            }
+        
+            if (!first.Password.Equals(Password)) {
+                throw new Exception("Incorrect password");
+            }
+        
+            return first;
         }
-
-        public Task<IList<User>> GetUsersAsync()
+        
+        public async Task<User> AddUserAsync(User user)
         {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<User> AddUserAsync(User user)
-        {
-            throw new System.NotImplementedException();
+            string userSerialized = JsonSerializer.Serialize(user);
+            StringContent content = new StringContent(userSerialized,Encoding.UTF8,"application/json");
+            HttpResponseMessage response = await client.PostAsync("https://localhost:5001",content);
+            Console.WriteLine(response.ToString());
+            return user;
         }
     }
 }
