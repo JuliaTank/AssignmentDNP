@@ -9,12 +9,12 @@ using Models;
 
 namespace AssignmentDNP.Persistence
 {
-    public class PeopleCloud: IPersonService //LINKS!!!!!!!!!!
+    public class PeopleCloud: IPersonService //LINKS!!!!!!!!!!!
     {
         HttpClient client = new HttpClient();
         public Adult ValidatePerson(string firstName, string lastName, string sex, int id)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public async Task<IList<Adult>> GetPersonAsync()
