@@ -1,11 +1,8 @@
 ﻿@page "/AddPerson"
 @using Models
-@using Persistence
-@using AssignmentDNP.Authentication
 @using AssignmentDNP.Data
 @attribute [Authorize(Policy ="LoggedUser" )]
 @inject NavigationManager NavigationManager
-@inject PeopleCloud PeopleCloud
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject IPersonService PersonService;
 
@@ -107,16 +104,17 @@
         errorMessage = "";
         try
         {
-            /*((PersonCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateAdd
-                (newAdult.FirstName,newAdult.LastName,newAdult.Sex,newAdult.Id);*/
-            
-            PersonService.ValidatePerson(newAdult.FirstName, newAdult.LastName, newAdult.Sex, newAdult.Id);
-       
-            PeopleCloud.AddPersonAsync(newAdult);
+            if (string.IsNullOrEmpty(newAdult.FirstName) || string.IsNullOrEmpty(newAdult.LastName)) 
+            {
+                throw new Exception("Specify first and last name");
+            }
+            //await PersonService.ValidatePersonAsync(newAdult.FirstName, newAdult.LastName, newAdult.Sex, newAdult.Id);
+            await PersonService.AddPersonAsync(newAdult);
                     NavigationManager.NavigateTo("/PeopleList");
         }
         catch (Exception e)
         {
+            Console.WriteLine(e);
             errorMessage = e.Message;
         }
         

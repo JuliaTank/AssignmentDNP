@@ -6,35 +6,43 @@ using System.Text.Json.Serialization;
 
 namespace AssignmentWebAPI.Models {
 public class Person {
-    [Required]
-    [Range(1,int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]
-    [JsonPropertyName("userId")]
+    /*[Required]
+    [Range(1,int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]*/
+   // [JsonPropertyName("userId")] 
+    [JsonPropertyName("Id")]
     public int Id { get; set; }
     [NotNull]
-    [JsonPropertyName("first name")]
+   // [JsonPropertyName("first name")]
+    [JsonPropertyName("FirstName")]
     public string FirstName { get; set; }
     [NotNull]
-    [JsonPropertyName("last name")]
+    //[JsonPropertyName("last name")]
+    [JsonPropertyName("LastName")]
     public string LastName { get; set; }
     [ValidHairColor]
-    [JsonPropertyName("hair color")]
+    //[JsonPropertyName("hair color")]
+    [JsonPropertyName("HairColor")]
     public string HairColor { get; set; }
     [NotNull]
-    [JsonPropertyName("eye color")]
+    //[JsonPropertyName("eye color")]
+    [JsonPropertyName("EyeColor")]
     [ValidEyeColor]
     public string EyeColor { get; set; }
     [NotNull, Range(0, 125)]
-    [JsonPropertyName("age")]
+    //[JsonPropertyName("age")]
+    [JsonPropertyName("Age")]
     public int Age { get; set; }
     [NotNull, Range(1, 250)]
-    [JsonPropertyName("weight")]
+    //[JsonPropertyName("weight")]
+    [JsonPropertyName("Weight")]
     public float Weight { get; set; }
     [NotNull, Range(30, 250)]
-    
-    [JsonPropertyName("height")]
+    //[JsonPropertyName("height")]
+    [JsonPropertyName("Height")]
     public int Height { get; set; }
     [NotNull]
-    [JsonPropertyName("sex")]
+    //[JsonPropertyName("sex")]
+    [JsonPropertyName("Sex")]
     public string Sex { get; set; }
 
     public void Update(Person toUpdate) {

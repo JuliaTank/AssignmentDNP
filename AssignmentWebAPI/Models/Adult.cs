@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 namespace AssignmentWebAPI.Models {
 public class Adult : Person {
     
-    [JsonPropertyName("title")]
+    [JsonPropertyName("JobTitle")]
     public string JobTitle { get; set; }
 
     public override string ToString() {

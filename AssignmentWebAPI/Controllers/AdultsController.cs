@@ -9,19 +9,18 @@ using Microsoft.AspNetCore.Mvc;
 namespace AssignmentWebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller")]
-    public class PeopleController : ControllerBase
+    [Route("[controller]")]
+    public class AdultsController : ControllerBase
     {
         private IPersonService personService;
 
-        public PeopleController(IPersonService personService)
+        public AdultsController(IPersonService personService)
         {
             this.personService = personService;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<Adult>>> GetPeople([FromQuery] int? userId, [FromQuery] string firstName,
-            [FromQuery] string lastName)
+        public async Task<ActionResult<IList<Adult>>> GetPeople()
         {
             try
             {
@@ -36,8 +35,7 @@ namespace AssignmentWebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("{id:int}")]
-        public async Task<ActionResult> DeletePerson([FromRoute] int id)
+        public async Task<ActionResult> DeletePerson([FromQuery] int id)
         {
             try
             {
@@ -56,9 +54,8 @@ namespace AssignmentWebAPI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return StatusCode(400, "The data are not typed in correctly, specify first and last name");
             }
-
             try
             {
                 Adult added = await personService.AddPersonAsync(person);
@@ -72,7 +69,7 @@ namespace AssignmentWebAPI.Controllers
         }
 
         [HttpPatch]
-        [Route("{id:int")]
+        [Route("{id:int}")]
         public async Task<ActionResult<Adult>> UpdatePerson([FromBody] Adult person)
         {
             try

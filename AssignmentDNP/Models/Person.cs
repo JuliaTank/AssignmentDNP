@@ -23,6 +23,7 @@ public class Person {
     [NotNull, Range(30, 250)]
     public int Height { get; set; }
     [NotNull]
+    [ValidSex]
     public string Sex { get; set; }
 
     public void Update(Person toUpdate) {
@@ -46,6 +47,15 @@ public class ValidHairColor : ValidationAttribute {
             return ValidationResult.Success;
         }
         return new ValidationResult("Valid hair colors are: Blond, Red, Brown, Black, White, Grey, Blue, Green, Leverpostej");
+    }
+}
+public class ValidSex : ValidationAttribute {
+    protected override ValidationResult IsValid(object value, ValidationContext validationContext) {
+        List<string> valid = new[] {"F", "f", "M", "m"}.ToList();
+        if (value != null && valid.Contains(value.ToString().ToLower())) {
+            return ValidationResult.Success;
+        }
+        return new ValidationResult("Valid sex names are: 'F' and 'M'");
     }
 }
 

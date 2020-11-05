@@ -7,7 +7,7 @@ namespace AssignmentWebAPI.Data
 {
     public interface IUserService
     {
-        User ValidateUser(string userName, string Password);
+        Task<User> ValidateUserAsync(string userName, string Password);
         Task<IList<User>> GetUsersAsync();
         Task<User> AddUserAsync(User user);
     }
