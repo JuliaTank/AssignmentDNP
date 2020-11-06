@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj",
+    "projectUniqueName": "D:\\dnp1\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj",
     "projectName": "AssignmentDNP",
-    "projectPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj",
-    "outputPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentDNP\\obj\\",
+    "projectPath": "D:\\dnp1\\AssignmentDNP\\AssignmentDNP\\AssignmentDNP.csproj",
+    "outputPath": "D:\\dnp1\\AssignmentDNP\\AssignmentDNP\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -43,7 +43,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
     }
   }
 }
