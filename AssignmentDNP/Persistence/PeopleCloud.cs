@@ -13,7 +13,12 @@ namespace AssignmentDNP.Persistence
     public class PeopleCloud: IPersonService //LINKS!!!!!!!!!!!
     {
         private string uri = "https://localhost:5001";
-        HttpClient client = new HttpClient();
+        private readonly HttpClient client;
+
+        public PeopleCloud() {
+        
+            client = new HttpClient();
+        }
         public async Task<Adult> ValidatePerson(string firstName, string lastName, string sex, int id)
         {
             HttpResponseMessage response = await client.GetAsync(uri+$"/PeopleList?firstName={firstName}&lastName={lastName}&sex={sex}&id=(id)");
