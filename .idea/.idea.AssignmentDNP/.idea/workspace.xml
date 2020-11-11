@@ -27,24 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab47c7e-fe1d-42fa-935c-31f88eebfa7c" name="Default Changelist" comment="okot">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/PeopleList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/PeopleList.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/AssignmentDNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/AssignmentDNP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/AssignmentDNP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/AssignmentDNP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/PeopleList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/PeopleList.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +79,8 @@
         <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" />
       </list>
     </option>
@@ -117,6 +100,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30021292" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected=".NET Project.AssignmentDNP">
     <configuration name="AssignmentDNP" type="DotNetProject" factoryName=".NET Project" temporary="true">
@@ -192,7 +176,7 @@
       <workItem from="1604563671722" duration="12469000" />
       <workItem from="1604593531490" duration="1983000" />
       <workItem from="1604684987612" duration="620000" />
-      <workItem from="1605116944211" duration="12204000" />
+      <workItem from="1605116944211" duration="12789000" />
     </task>
     <task id="LOCAL-00001" summary="okot">
       <created>1604331332804</created>
@@ -246,26 +230,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1603378597224" />
-    <state width="1624" height="150" key="GridCell.Tab.0.bottom" timestamp="1605128957303">
+    <state width="1478" height="150" key="GridCell.Tab.0.bottom" timestamp="1605129259309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1441" height="297" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604597690597" />
-    <state width="1624" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605128957303" />
-    <state width="1624" height="150" key="GridCell.Tab.0.center" timestamp="1605128957303">
+    <state width="1478" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605129259309" />
+    <state width="1478" height="150" key="GridCell.Tab.0.center" timestamp="1605129259309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1441" height="297" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604597690597" />
-    <state width="1624" height="150" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605128957303" />
-    <state width="1624" height="150" key="GridCell.Tab.0.left" timestamp="1605128957303">
+    <state width="1478" height="150" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605129259309" />
+    <state width="1478" height="150" key="GridCell.Tab.0.left" timestamp="1605129259309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1441" height="297" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604597690596" />
-    <state width="1624" height="150" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605128957303" />
-    <state width="1624" height="150" key="GridCell.Tab.0.right" timestamp="1605128957303">
+    <state width="1478" height="150" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605129259309" />
+    <state width="1478" height="150" key="GridCell.Tab.0.right" timestamp="1605129259309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1441" height="297" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604597690597" />
-    <state width="1624" height="150" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605128957303" />
+    <state width="1478" height="150" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605129259309" />
     <state width="1440" height="29" key="GridCell.Tab.1.bottom" timestamp="1604582207519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -339,6 +323,10 @@
     </state>
     <state x="386" y="30" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1603986720953" />
     <state x="463" y="36" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604410819439" />
+    <state x="204" y="173" key="SettingsEditor" timestamp="1605129575057">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="204" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605129575057" />
     <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1604332825473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
