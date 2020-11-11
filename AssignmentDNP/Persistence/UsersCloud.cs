@@ -7,7 +7,7 @@ namespace Persistence
 {
     public class UsersCloud: IUserService
     {
-        public User ValidateUser(string userName, string Password)
+        public Task<User> ValidateUser(string userName, string Password)
         {
             throw new System.NotImplementedException();
         }

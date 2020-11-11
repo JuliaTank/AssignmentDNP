@@ -27,17 +27,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab47c7e-fe1d-42fa-935c-31f88eebfa7c" name="Default Changelist" comment="okot">
-      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/ClassDiagram.asta.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/ClassDiagram.asta" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/ClassDiagram.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Data/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Data/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,23 +61,16 @@
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/DataException.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/PersonService.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/PeopleController.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Data/IUserService.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/IUserService.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/User.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Models/User.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/IPersonService.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/users.json" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/UserService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/Adult.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Data/clouds/UsersCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Models/Person.cs" />
@@ -88,6 +79,15 @@
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/Person.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/AddPerson.razor" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Data/IUserService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Data/UserWebService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Data/CloudPersonService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
       </list>
     </option>
   </component>
@@ -181,7 +181,7 @@
       <workItem from="1604563671722" duration="12469000" />
       <workItem from="1604593531490" duration="1983000" />
       <workItem from="1604684987612" duration="620000" />
-      <workItem from="1605116944211" duration="6149000" />
+      <workItem from="1605116944211" duration="10107000" />
     </task>
     <task id="LOCAL-00001" summary="okot">
       <created>1604331332804</created>

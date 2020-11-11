@@ -6,7 +6,7 @@ namespace AssignmentDNP.Data
 {
     public interface IUserService
     {
-        User ValidateUser(string userName, string Password);
+        Task<User> ValidateUser(string username, string password);
         Task<IList<User>> GetUsersAsync();
         Task<User> AddUserAsync(User user);
     }

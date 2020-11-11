@@ -15,7 +15,6 @@
           <e p="UserCustomAuthenticationStateProvider.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ClassDiagram.asta" t="Include" />
         <e p="Data" t="Include">
           <e p="IPersonService.cs" t="Include" />
           <e p="IUserService.cs" t="Include" />
@@ -97,7 +96,6 @@
         <e p="AssignmentWebAPI.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ClassDiagram.asta" t="Include" />
-        <e p="ClassDiagram.asta.lock" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AdultsController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />

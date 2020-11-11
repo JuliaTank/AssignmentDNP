@@ -25,6 +25,9 @@
         </div>
            
     </NotAuthorized>
+    <Authorized>
+            <a href="" @onclick="PerformLogout"> Log out </a>
+    </Authorized>
 </AuthorizeView>
 </CascadingAuthenticationState>
 @code {
@@ -38,10 +41,27 @@
         errorMessage = "";
         try
         {
-            ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
+            await ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
             isAuthorized = true;
+            NavigationManager.NavigateTo("/main");
+        }
+        catch (Exception e)
+        {
+            errorMessage = e.Message;
+        }
+    }
+    
+    public async Task PerformLogout()
+    {
+        errorMessage = "";
+        username = "";
+        password = "";
+        isAuthorized = true;
+        try
+        {
+            await ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
             NavigationManager.NavigateTo("/main");
         }
         catch (Exception e)
