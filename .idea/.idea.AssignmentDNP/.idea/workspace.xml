@@ -27,7 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab47c7e-fe1d-42fa-935c-31f88eebfa7c" name="Default Changelist" comment="okot">
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDiagram.asta.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/bin/Debug/netcoreapp3.1/AssignmentDNP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDiagram.asta" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDiagram.asta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +79,13 @@
         <option value="$PROJECT_DIR$/AssignmentDNP/Data/UserWebService.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Data/CloudPersonService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Shared/MainLayout.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
       </list>
     </option>
   </component>
