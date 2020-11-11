@@ -119,10 +119,10 @@ else
         adultsToShow = allAdults;
     }*/
     
-    private void RemoveAdult(int adultId)
+    private async void RemoveAdult(int adultId)
     {
         Adult adultToRemove = allAdults.First(t => t.Id == adultId);
-        PeopleCloud.RemovePersonAsync(adultId);
+        await PeopleCloud.RemovePersonAsync(adultId);
         allAdults.Remove(adultToRemove);
         adultsToShow.Remove(adultToRemove);
     }
