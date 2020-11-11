@@ -16,10 +16,18 @@ namespace AssignmentDNP.Persistence
         private string uri = "https://localhost:5001";
         private readonly HttpClient client;
         private string userFile = "users.json";
-
+        HttpClientHandler clientHandler = new HttpClientHandler();
+        
         public UsersCloud()
         {
-            client = new HttpClient();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) =>
+            {
+                return true;
+            };
+
+            // Pass the handler to httpclient
+            client = new HttpClient(clientHandler);
+
         }
 
         public async Task<User> ValidateUser(string username, string password)

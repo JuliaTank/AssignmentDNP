@@ -31,7 +31,6 @@ namespace AssignmentDNP
             services.AddScoped<IUserService, UsersCloud>();
             services.AddScoped<IPersonService, PeopleCloud>();
             services.AddScoped<AuthenticationStateProvider, UserCustomAuthenticationStateProvider>();
-            services.AddScoped<AuthenticationStateProvider, PersonCustomAuthenticationStateProvider>();
 
 
             services.AddAuthorization(options =>
