@@ -45,7 +45,6 @@
           <e p="Login.razor" t="Include" />
           <e p="PeopleList.razor" t="Include" />
         </e>
-        <e p="Persistence" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -97,6 +96,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="AssignmentWebAPI.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ClassDiagram.asta" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AdultsController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
