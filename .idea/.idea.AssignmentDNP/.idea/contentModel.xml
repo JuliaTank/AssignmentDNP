@@ -3,10 +3,10 @@
   <component name="ContentModelStore">
     <e p="C:\Users\tanki\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\tanki\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AssignmentDNP.-2106350375.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tanki\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\tanki\DNPexercises\AssignmentDNP" t="IncludeFlat">
       <e p="AssignmentDNP" t="IncludeRecursive">
         <e p="_Imports.razor" t="Include" />
-        <e p="adults.json" t="Include" />
         <e p="App.razor" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -17,6 +17,10 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Data" t="Include">
+          <e p="clouds" t="Include">
+            <e p="PeopleCloud.cs" t="Include" />
+            <e p="UsersCloud.cs" t="Include" />
+          </e>
           <e p="IPersonService.cs" t="Include" />
           <e p="IUserService.cs" t="Include" />
         </e>
@@ -41,10 +45,7 @@
           <e p="Login.razor" t="Include" />
           <e p="PeopleList.razor" t="Include" />
         </e>
-        <e p="Persistence" t="Include">
-          <e p="PeopleCloud.cs" t="Include" />
-          <e p="UsersCloud.cs" t="Include" />
-        </e>
+        <e p="Persistence" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -56,7 +57,6 @@
           <e p="SurveyPrompt.razor" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="users.json" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="bootstrap" t="Include">
@@ -92,16 +92,22 @@
       </e>
       <e p="AssignmentDNP.sln" t="IncludeFlat" />
       <e p="AssignmentWebAPI" t="IncludeRecursive">
+        <e p="adults.json" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="AssignmentWebAPI.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="PeopleController.cs" t="Include" />
+          <e p="AdultsController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
+          <e p="DataException.cs" t="Include" />
+          <e p="Impl" t="Include">
+            <e p="PersonService.cs" t="Include" />
+            <e p="UserService.cs" t="Include" />
+          </e>
           <e p="IPersonService.cs" t="Include" />
           <e p="IUserService.cs" t="Include" />
         </e>
@@ -117,15 +123,12 @@
             </e>
           </e>
         </e>
-        <e p="Persistence" t="Include">
-          <e p="PeopleCloud.cs" t="Include" />
-          <e p="UsersCloud.cs" t="Include" />
-        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="users.json" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />

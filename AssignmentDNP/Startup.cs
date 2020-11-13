@@ -48,7 +48,10 @@ namespace AssignmentDNP
                         policy.RequireAuthenticatedUser().RequireAssertion(context =>
                         {
                             Claim logClaim = context.User.FindFirst(claim => claim.Type.Equals("ID"));
-                            if (logClaim == null) return false;
+                            if (logClaim == null)
+                            {
+                                return false;
+                            }
                             return int.Parse(logClaim.Value)>0;
                         }));
                 }

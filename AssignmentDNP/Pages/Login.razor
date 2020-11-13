@@ -31,14 +31,14 @@
     private string username;
     private string password;
     private string errorMessage;
-    private bool isAuthorized = false;
+    private bool isAuthorized;
 
     public async Task PerformLogin()
     {
         errorMessage = "";
         try
         {
-            ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
+           await ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
             isAuthorized = true;
@@ -46,6 +46,7 @@
         }
         catch (Exception e)
         {
+            Console.WriteLine(e);
             errorMessage = e.Message;
         }
     }

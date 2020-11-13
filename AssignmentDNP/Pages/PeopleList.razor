@@ -1,8 +1,9 @@
 ﻿@page "/PeopleList"
 @using Models
 @using Persistence
+@using AssignmentDNP.Data
 @attribute [Authorize(Policy ="LoggedUser" )]
-@inject PeopleCloud PeopleCloud
+@inject IPersonService PersonService;
 <h3 id="ListPerson">People List</h3>
 
 <div id = "form-group">
@@ -113,16 +114,16 @@ else
             (filterByLastName != null && t.LastName == filterByLastName || filterByLastName == null)).ToList();
     }
 
-    /*protected override async Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        allAdults = PeopleCloud.GetPersonAsync();
+        allAdults = await PersonService.GetPersonAsync();
         adultsToShow = allAdults;
-    }*/
+    }
     
     private void RemoveAdult(int adultId)
     {
         Adult adultToRemove = allAdults.First(t => t.Id == adultId);
-        PeopleCloud.RemovePersonAsync(adultId);
+        PersonService.RemovePersonAsync(adultId);
         allAdults.Remove(adultToRemove);
         adultsToShow.Remove(adultToRemove);
     }

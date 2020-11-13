@@ -6,7 +6,7 @@ namespace AssignmentDNP.Data
 {
     public interface IPersonService
     {
-        Adult ValidatePerson(string firstName, string lastName, string sex, int id);
+        Task<Adult> ValidatePersonAsync(string firstName, string lastName, string sex, int id);
         Task<IList<Adult>> GetPersonAsync();
         Task   AddPersonAsync(Adult person);
         Task   RemovePersonAsync(int personId);

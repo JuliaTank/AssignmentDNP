@@ -17,8 +17,6 @@ C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\obj\Debug\netcoreapp3.1\
 C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\adults.json
-C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\users.json
 C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\AssignmentDNP.exe
 C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\AssignmentDNP.deps.json
 C:\Users\tanki\DNPexercises\AssignmentDNP\AssignmentDNP\bin\Debug\netcoreapp3.1\AssignmentDNP.runtimeconfig.json
