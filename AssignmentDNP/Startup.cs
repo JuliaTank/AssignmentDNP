@@ -1,13 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
+using System.Threading.Tasks;
 using AssignmentDNP.Authentication;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using AssignmentDNP.Data;
 using AssignmentDNP.Persistence;
 using Microsoft.AspNetCore.Components.Authorization;
+using Persistence;
 
 namespace AssignmentDNP
 {
@@ -30,7 +37,9 @@ namespace AssignmentDNP
             services.AddHttpContextAccessor();
             services.AddScoped<IUserService, UsersCloud>();
             services.AddScoped<IPersonService, PeopleCloud>();
+            
             services.AddScoped<AuthenticationStateProvider, UserCustomAuthenticationStateProvider>();
+            /*services.AddScoped<AuthenticationStateProvider, PersonCustomAuthenticationStateProvider>();*/
 
 
             services.AddAuthorization(options =>

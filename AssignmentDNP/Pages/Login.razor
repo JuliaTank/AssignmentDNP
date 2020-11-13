@@ -5,27 +5,27 @@
 @inject NavigationManager NavigationManager
 @page "/"
 <CascadingAuthenticationState>
-<AuthorizeView>
-    <NotAuthorized>
-        <div id="loginForm">
-            <img class="logo" src="images/logo.png" alt="logo">
+    <AuthorizeView>
+        <NotAuthorized>
+            <div id="loginForm">
+                <img class="logo" src="images/logo.png" alt="logo">
 
-            <div class="form-group">
-                <label>User name:</label>
-                <input class="form-control" type="text" placeholder="user name" @bind-value="username"/>
+                <div class="form-group">
+                    <label>User name:</label>
+                    <input class="form-control" type="text" placeholder="user name" @bind-value="username"/>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" type="password" placeholder="password" @bind-value="password"/>
+                </div>
+                <div style="color:red">@errorMessage</div>
+                <button class="btn button" type="submit" @onclick="PerformLogin">
+                    <span>Login</span>
+                </button>
             </div>
-            <div class="form-group">
-                <label>Password</label>
-                <input class="form-control" type="password" placeholder="password" @bind-value="password"/>
-            </div>
-            <div style="color:red">@errorMessage</div>
-            <button class="btn button" type="submit" @onclick="PerformLogin">
-                <span>Login</span>
-            </button>
-        </div>
            
-    </NotAuthorized>
-</AuthorizeView>
+        </NotAuthorized>
+    </AuthorizeView>
 </CascadingAuthenticationState>
 @code {
     private string username;
@@ -38,7 +38,7 @@
         errorMessage = "";
         try
         {
-           await ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
+            await ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
             isAuthorized = true;

@@ -23,7 +23,7 @@ namespace AssignmentDNP.Authentication
             this.personService = personService;
         }
         
-        public async Task ValidateAdd(string firstName, string lastName, string sex, int id)
+        /*public void ValidateAdd(string firstName, string lastName, string sex, int id)
         {
             Console.WriteLine("Validating adding");
             if (string.IsNullOrEmpty(firstName)) throw new Exception("Enter first name");
@@ -34,10 +34,10 @@ namespace AssignmentDNP.Authentication
             ClaimsIdentity identity = new ClaimsIdentity();
             try
             {
-                Adult adult = await personService.ValidatePerson(firstName, lastName, sex, id);
+                Adult adult = personService.ValidatePerson(firstName, lastName, sex,id);
                 identity = SetupClaimsForAdult(adult);
                 string serialisedData = JsonSerializer.Serialize(adult);
-                await jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "currentAdult", serialisedData);
+                jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "currentAdult", serialisedData);
                 cachedAdult = adult;
             }
             catch (Exception e)
@@ -47,7 +47,7 @@ namespace AssignmentDNP.Authentication
 
             NotifyAuthenticationStateChanged(
                 Task.FromResult(new AuthenticationState(new ClaimsPrincipal(identity))));
-        }
+        }*/
 
         public override async Task<AuthenticationState> GetAuthenticationStateAsync()
         {

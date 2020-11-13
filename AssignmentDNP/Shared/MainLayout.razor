@@ -30,7 +30,7 @@
     {
         try
         {
-            await ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
+            ((UserCustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
             NavigationManager.NavigateTo("/");
         }
         catch (Exception e)
