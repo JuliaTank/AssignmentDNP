@@ -51,8 +51,8 @@ namespace AssignmentWebAPI.Controllers
                 Console.WriteLine(e);
                 return StatusCode(500, e.Message);
             }
-        }*/
-        
+        }
+        */
         [HttpPost]
         public async Task<ActionResult<User>> AddUser([FromBody] User user) {
             if (!ModelState.IsValid)

@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
+    "projectUniqueName": "D:\\dnp1\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
     "projectName": "AssignmentWebAPI",
-    "projectPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
-    "outputPath": "C:\\Users\\tanki\\DNPexercises\\AssignmentDNP\\AssignmentWebAPI\\obj\\",
+    "projectPath": "D:\\dnp1\\AssignmentDNP\\AssignmentWebAPI\\AssignmentWebAPI.csproj",
+    "outputPath": "D:\\dnp1\\AssignmentDNP\\AssignmentWebAPI\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -43,7 +43,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
     }
   }
 }
