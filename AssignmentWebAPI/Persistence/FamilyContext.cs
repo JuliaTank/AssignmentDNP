@@ -1,7 +1,7 @@
 ﻿using AssignmentWebAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AssignmentWebAPI.Data.Impl
+namespace AssignmentWebAPI.Persistence
 {
     public class FamilyContext: DbContext
     {

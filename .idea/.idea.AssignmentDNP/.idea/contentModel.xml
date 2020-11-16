@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\HUAWEI\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\HUAWEI\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AssignmentDNP.-792392539.00" t="ExcludeRecursive" />
-    <e p="C:\Users\HUAWEI\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\HUAWEI\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\HUAWEI\DNPexercises\AssignmentDNP" t="IncludeFlat">
+    <e p="C:\Users\tanki\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tanki\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AssignmentDNP.-2106350375.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tanki\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\tanki\DNPexercises\AssignmentDNP" t="IncludeFlat">
       <e p="AssignmentDNP" t="IncludeRecursive">
         <e p="_Imports.razor" t="Include" />
         <e p="App.razor" t="Include" />
@@ -106,16 +105,14 @@
         <e p="Data" t="Include">
           <e p="DataException.cs" t="Include" />
           <e p="Impl" t="Include">
-            <e p="FamilyContext.cs" t="Include" />
             <e p="PersonService.cs" t="Include" />
+            <e p="SqlFamilyService.cs" t="Include" />
             <e p="UserService.cs" t="Include" />
           </e>
           <e p="IPersonService.cs" t="Include" />
           <e p="IUserService.cs" t="Include" />
         </e>
         <e p="Family.db" t="Include" />
-        <e p="Family.db-shm" t="Include" />
-        <e p="Family.db-wal" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20201115130207_InitialCreate.cs" t="Include" />
           <e p="20201115130207_InitialCreate.Designer.cs" t="Include" />
@@ -132,6 +129,9 @@
               <e p="AssignmentWebAPI.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="FamilyContext.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
