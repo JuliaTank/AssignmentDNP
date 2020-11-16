@@ -8,29 +8,107 @@
     <projectFile>AssignmentWebAPI/AssignmentWebAPI.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab47c7e-fe1d-42fa-935c-31f88eebfa7c" name="Default Changelist" comment="okotm">
+    <list default="true" id="ee3374f8-fce2-445a-a481-814902a92446" name="Default Changelist" comment="aa">
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/FamilyContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Family.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Family.db-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Family.db-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Migrations/20201115130207_InitialCreate.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Migrations/20201115130207_InitialCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/Migrations/FamilyContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/AssignmentWebAPI.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csproj.CopyComplete" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2020_14_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2020_14_10__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/shelf/Uncommitted_changes_before_Update_at_10_22_2020_4_50_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/shelf/Uncommitted_changes_before_Update_at_10_22_2020_4_50_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/shelf/Uncommitted_changes_before_Update_at_10_22_2020_4_53_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/shelf/Uncommitted_changes_before_Update_at_10_22_2020_4_53_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AssignmentDNP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/AssignmentDNP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/AssignmentDNP.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/AssignmentDNP.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/AssignmentDNP.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/AssignmentDNP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/AssignmentDNP.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/AssignmentDNP.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddPerson.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddPerson.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/PeopleList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/PeopleList.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/LoginLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/LoginLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentDNP/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentDNP/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/AssignmentWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/AssignmentWebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/Models/Adult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/Models/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/bin/Debug/netcoreapp3.1/AssignmentWebAPI.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/AssignmentWebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/AssignmentWebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/AssignmentWebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/AssignmentWebAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/Debug/netcoreapp3.1/AssignmentWebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentWebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentWebAPI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,54 +119,44 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/AddPerson.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/Login.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/PeopleList.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/Pages/Index.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Login.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddPerson.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/AddPerson.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/PeopleList.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AssignmentDNP/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/PeopleController.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/IUserService.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Persistence/UsersCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentWebAPI/Persistence/FileContext.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Persistence/PeopleCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/DataException.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/PersonService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/PeopleController.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/IUserService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/User.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Models/User.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/IPersonService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/users.json" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/UserService.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/Adult.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Data/clouds/UsersCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Shared/NavMenu.razor" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Models/Person.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/UsersController.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Controllers/AdultsController.cs" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/Person.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/AddPerson.razor" />
-        <option value="$PROJECT_DIR$/AssignmentWebAPI/Startup.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/PersonCustomAuthenticationStateProvider.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Data/clouds/PeopleCloud.cs" />
-        <option value="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/UsersCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Data/IUserService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Pages/PeopleList.razor" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/IPersonService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Startup.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Data/IPersonService.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Persistence/PeopleCloud.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Persistence/PeopleCloud.cs" />
         <option value="$PROJECT_DIR$/AssignmentDNP/Pages/Login.razor" />
+        <option value="$PROJECT_DIR$/AssignmentDNP/Authentication/UserCustomAuthenticationStateProvider.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/Person.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/User.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Models/Adult.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/UserContext.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/PersonContext.cs" />
+        <option value="$PROJECT_DIR$/AssignmentWebAPI/Data/Impl/FamilyContext.cs" />
       </list>
     </option>
   </component>
@@ -103,31 +171,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34989354" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30021292" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected=".NET Project.AssignmentDNP">
-    <configuration name="AssignmentDNP" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AssignmentDNP/AssignmentDNP.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="AssignmentWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile" singleton="false">
+  <component name="RunManager" selected=".NET Launch Settings Profile.AssignmentWebAPI">
+    <configuration name="AssignmentWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AssignmentWebAPI/AssignmentWebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="AssignmentWebAPI" />
@@ -157,76 +206,31 @@
         <option name="Build" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue=".NET Launch Settings Profile.AssignmentWebAPI" />
-      <item itemvalue=".NET Launch Settings Profile.AssignmentWebAPI: IIS Express" />
-      <item itemvalue=".NET Project.AssignmentDNP" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue=".NET Project.AssignmentDNP" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ab47c7e-fe1d-42fa-935c-31f88eebfa7c" name="Default Changelist" comment="okot" />
+      <changelist id="ee3374f8-fce2-445a-a481-814902a92446" name="Default Changelist" comment="aa" />
       <created>1603453508252</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603453508252</updated>
       <workItem from="1603453537931" duration="5993000" />
       <workItem from="1603985022405" duration="3921000" />
-      <workItem from="1604423869619" duration="16805000" />
-      <workItem from="1604563671722" duration="12469000" />
-      <workItem from="1604593531490" duration="1983000" />
-      <workItem from="1604612166453" duration="1495000" />
-      <workItem from="1605276962156" duration="615000" />
+      <workItem from="1604564700005" duration="5755000" />
+      <workItem from="1605004634244" duration="783000" />
+      <workItem from="1605009321963" duration="2299000" />
+      <workItem from="1605013712256" duration="1244000" />
+      <workItem from="1605278035348" duration="4149000" />
     </task>
-    <task id="LOCAL-00001" summary="okot">
-      <created>1604331332804</created>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1604331704163</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1604331332804</updated>
+      <updated>1604331704163</updated>
     </task>
-    <task id="LOCAL-00002" summary="okot">
-      <created>1604331463123</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604331463123</updated>
-    </task>
-    <task id="LOCAL-00003" summary="okot">
-      <created>1604612675969</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604612675969</updated>
-    </task>
-    <task id="LOCAL-00004" summary="okotm">
-      <created>1604613218356</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604613218356</updated>
-    </task>
-    <task id="LOCAL-00005" summary="okotm">
-      <created>1605277009066</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605277009066</updated>
-    </task>
-    <task id="LOCAL-00006" summary="okotm">
-      <created>1605277102920</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605277102920</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,132 +252,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="okot" />
-    <MESSAGE value="okotm" />
-    <option name="LAST_COMMIT_MESSAGE" value="okotm" />
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604423248872">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="321" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605445446621">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="304" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604423248872" />
+    <state x="321" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605445446621" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1603378597224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1603378597224" />
-    <state width="1453" height="297" key="GridCell.Tab.0.bottom" timestamp="1604613094625">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="209" y="50" key="MergeDialog" timestamp="1605278176470">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1453" height="297" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604613094625" />
-    <state width="1453" height="297" key="GridCell.Tab.0.center" timestamp="1604613094625">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1453" height="297" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604613094625" />
-    <state width="1453" height="297" key="GridCell.Tab.0.left" timestamp="1604613094625">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1453" height="297" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604613094625" />
-    <state width="1453" height="297" key="GridCell.Tab.0.right" timestamp="1604613094625">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1453" height="297" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604613094625" />
-    <state width="1440" height="29" key="GridCell.Tab.1.bottom" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.1.center" timestamp="1604582207515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604582207515" />
-    <state width="1440" height="29" key="GridCell.Tab.1.left" timestamp="1604582207515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604582207515" />
-    <state width="1440" height="29" key="GridCell.Tab.1.right" timestamp="1604582207515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604582207515" />
-    <state width="1440" height="29" key="GridCell.Tab.2.bottom" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.2.center" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.2.left" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.2.right" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.3.bottom" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.3.center" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.3.left" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.3.right" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.4.bottom" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.4.center" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.4.left" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state width="1440" height="29" key="GridCell.Tab.4.right" timestamp="1604582207519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1440" height="29" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1604582207519" />
-    <state x="165" y="70" key="MergeDialog" timestamp="1604612795362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="165" y="70" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604612795362" />
-    <state x="426" y="179" key="MultipleFileMergeDialog" timestamp="1605277049248">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="426" y="179" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605277049248" />
+    <state x="209" y="50" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605278176470" />
     <state x="445" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1603975773597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="445" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1603975773597" />
-    <state x="463" y="36" key="RiderGenerateDialog" timestamp="1604410819439">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="386" y="30" key="RiderGenerateDialog" timestamp="1603986720953">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="386" y="30" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1603986720953" />
-    <state x="463" y="36" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1604410819439" />
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1604332825473">
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1604331315452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1604332825473" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605277106852">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1604331315452" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1604331706507">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605277106852" />
-    <state x="550" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604612849877">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604331706507" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605278048277">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1603378623512" />
-    <state x="550" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1604612849877" />
-    <state x="750" y="189" key="run.anything.popup" timestamp="1604419542454">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605278048277" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1604521110440">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="750" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1604419542454" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604521110440" />
   </component>
 </project>

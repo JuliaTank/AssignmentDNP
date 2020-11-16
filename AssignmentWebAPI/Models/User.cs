@@ -1,17 +1,21 @@
-﻿using System.Text.Json;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace AssignmentWebAPI.Models
 {
     public class User
     {
-        [JsonPropertyName("username")]
+        //[JsonPropertyName("username")]
+        [Required, StringLength(50)]
         public string UserName { get; set; }
-        [JsonPropertyName("password")]
+        //[JsonPropertyName("password")]
+        [Required, StringLength(50)]
         public string Password { get; set; }
-        [JsonPropertyName("id")]
+        //[JsonPropertyName("id")]
+        [Key]
         public int ID { get; set; }
-        [JsonPropertyName("securityLevel")]
+        //[JsonPropertyName("securityLevel")]
         public int SecurityLevel { get; set; }
         
         public override string ToString() {

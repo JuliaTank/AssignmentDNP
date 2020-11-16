@@ -1,11 +1,12 @@
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
 
 namespace AssignmentWebAPI.Models {
 public class Adult : Person {
-    
-    [JsonPropertyName("JobTitle")]
+    [Required, StringLength(50)]
+    //[JsonPropertyName("JobTitle")]
     public string JobTitle { get; set; }
 
     public override string ToString() {

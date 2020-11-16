@@ -9,23 +9,27 @@ public class Person {
     /*[Required]
     [Range(1,int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]*/
    // [JsonPropertyName("userId")] 
-    [JsonPropertyName("Id")]
+    //[JsonPropertyName("Id")]
+    
+    [Key]
     public int Id { get; set; }
     [NotNull]
+    [Required, StringLength(50)]
    // [JsonPropertyName("first name")]
-    [JsonPropertyName("FirstName")]
+    //[JsonPropertyName("FirstName")]
     public string FirstName { get; set; }
     [NotNull]
+    [Required, StringLength(50)]
     //[JsonPropertyName("last name")]
-    [JsonPropertyName("LastName")]
+    //[JsonPropertyName("LastName")]
     public string LastName { get; set; }
     [ValidHairColor]
     //[JsonPropertyName("hair color")]
-    [JsonPropertyName("HairColor")]
+    //[JsonPropertyName("HairColor")]
     public string HairColor { get; set; }
     [NotNull]
     //[JsonPropertyName("eye color")]
-    [JsonPropertyName("EyeColor")]
+    //[JsonPropertyName("EyeColor")]
     [ValidEyeColor]
     public string EyeColor { get; set; }
     [NotNull, Range(0, 125)]
@@ -34,15 +38,15 @@ public class Person {
     public int Age { get; set; }
     [NotNull, Range(1, 250)]
     //[JsonPropertyName("weight")]
-    [JsonPropertyName("Weight")]
+    //[JsonPropertyName("Weight")]
     public float Weight { get; set; }
     [NotNull, Range(30, 250)]
     //[JsonPropertyName("height")]
-    [JsonPropertyName("Height")]
+    //[JsonPropertyName("Height")]
     public int Height { get; set; }
     [NotNull]
     //[JsonPropertyName("sex")]
-    [JsonPropertyName("Sex")]
+    //[JsonPropertyName("Sex")]
     public string Sex { get; set; }
 
     public void Update(Person toUpdate) {
